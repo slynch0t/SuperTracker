@@ -1,0 +1,91 @@
+h1, h2 {
+	text-align: center;
+	color:#337ab7;
+	margin-bottom:40px;
+}
+h4{
+	color:#337ab7;
+}
+img{
+	max-width:100%;
+	max-height:100%;
+}
+#quikStats, #myGoals{
+	height:430px;
+}
+.container-fluid {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.nav{
+	height:45px;
+}
+.nav-pills>li.active>a, 
+.nav-pills>li.active>a:focus, 
+.nav-pills>li.active>a:hover{
+	background-color:#5cb85c;
+	color: #fff;
+	height:45px;
+	font-size:18px;
+}
+.nav-pills>li>a{
+	color:#337ab7;
+	height:45px;
+	font-size:18px;
+}
+.well {
+	width:100%;
+}
+.goal{
+	font-size:16px;
+	margin-bottom:10px;
+}
+.block {
+	background-color:#fff;
+	border-top: 5px solid #5cb85c;
+	border-bottom: 5px solid #B8B8B8;
+	border-radius:5px;
+	margin-top:30px;
+	margin-bottom:30px;
+	margin-left:15px;
+	margin-right:15px;
+}
+.blurb{
+	padding-left:30px;
+	padding-right:30px;
+	border-top: 5px solid #337ab7;
+	border-bottom: 5px solid #B8B8B8;
+	border-radius:5px;
+	margin-left:6%;
+	margin-bottom:30px;
+}
+.chart{
+
+}
+.comm-obs{
+	border: 2px solid black;
+	padding-bottom:15px;
+	margin-left:30px;
+}
+.carousel-inner>.item{
+	padding-left:60px;
+	padding-right:60px;
+	padding-top:30px;
+	padding-bottom:30px;
+
+}
+.carousel-control.left{
+	background-image: none;
+}
+.carousel-control.right{
+	background-image: none;
+}
+.progress, .progress-bar {
+	height:45px;
+	font-size:16px;
+	font-weight:bold;
+}
+.progress-bar{
+	padding-top:15px;
+}
+

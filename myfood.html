@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>SuperTracker</title>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+		<script src="http://twitter.github.com/bootstrap/assets/js/bootstrap-dropdown.js"></script>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="container-fluid">
+			<header>
+				<ul class="nav nav-pills">
+					<li><a class="navbar-brand" href="#">SuperTracker!</a></li>
+					<li><a href="home.html">Dashboard</a></li>
+					<li class="active"><a href="#">My Food</a></li>
+					<li><a href="myactivity.html">My Activity</a></li>
+					<li><a href="community.html">Community</a></li>
+					<li class="pull-right"><a href="landingPage.html">Sign Out</a></li>
+			</ul>
+			</header>
+			<main>
+				<div class="well">
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div  class="col-sm-10 col-offset-sm-1 block">
+							<h2>My Food Stats</h2>
+							<div class="col-md-4 sol-sm-12">
+								<img src="pieChart.png"></img>
+							</div>
+							<div class="col-md-4 sol-sm-12">
+								<img src="pieChart1.png"></img>
+							</div>
+							<div class="col-md-4 sol-sm-12">
+								<img src="pieChart2.jpg"></img>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-1"></div>
+						<div class="col-sm-10 col-offset-sm-1 block">
+							<h2>Food Tracker</h2>
+							<div class="col-sm-4">
+								<form class="form-horizontal" role="form">
+									<div class="form-group">
+										<label class="control-label col-sm-5" for="food">What'd you have?</label>
+										<div class="col-sm-7">
+											<input id="food" class="form-control" type="text" placeholder="e.g., 'Bananas'"></input>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="control-label col-sm-5" for="amount">How Many/Much?</label>
+										<div class="col-sm-7">
+											<input id="amount" class="form-control" type="text" placeholder="e.g., '17'"></input>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-sm-7 col-sm-offset-5">
+											<button class="btn btn-primary">Track it!</input>
+											<button class="btn btn-success" style="margin-left:20px">Add to Faves</input>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="col-sm-1">
+								<h3>OR</h3>
+							</div>
+							<div class="col-sm-4">
+								<form class="form-horizontal pull-left" role="form">
+									<div class="form-group">
+										<label class="control-label col-sm-5" for="food">What'd you have?</label>
+										<div class="col-sm-7">
+										<select class="form-control" id="category" ng-model="currentCourse.category">
+											<option value="select">Ceasar Salad</option>
+											<option value="PROG">Chicken Burrito</option>
+											<option value="DB">Kale Chips</option>
+											<option value="WEB">Bananas</option>
+										</select>
+										</div>
+									</div>
+									<div class="form-group">
+										<label class="control-label col-sm-5" for="amount">How Many/Much?</label>
+										<div class="col-sm-7">
+											<input id="amount" class="form-control" type="text" placeholder="e.g., 'Over 9000'"></input>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="col-sm-7 col-sm-offset-5">
+											<button class="btn btn-primary">Track it!</input>
+										</div>
+									</div>
+								</form>
+							</div>
+							<div class="sol-sm-2">
+								<button class="btn btn-success" style="margin-left:20px">Edit my Faves</input>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</body>
+</html>
